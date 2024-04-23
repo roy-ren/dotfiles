@@ -1,0 +1,7 @@
+. "$HOME/.cargo/env"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PUB_HOSTED_URL="http://pub.xiaoman.cc"
+# export PUB_HOSTED_URL="https://pub.flutter-io.cn"
+export FLUTTER_STORAGE_BASE_URL="https://storage.flutter-io.cn"
+export PATH="/Users/roy/dev_env/flutter/3.13.9/flutter/bin:$PATH"
+export PATH="/Users/roy/dev_env/flutter/3.19.3/flutter/bin:$PATH"
