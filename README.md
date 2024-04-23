@@ -1,0 +1,5 @@
+just bootstrap
+
+```
+./bootstrap.sh
+```
