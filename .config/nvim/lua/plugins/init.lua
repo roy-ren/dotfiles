@@ -3,6 +3,7 @@ return {
   require "plugins.overrides.lsp",
   require "plugins.overrides.mason",
   require "plugins.overrides.null_ls",
+  require "plugins.overrides.telescope",
   require "plugins.overrides.tree",
   require "plugins.overrides.treesitter",
   -- custom new
