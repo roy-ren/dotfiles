@@ -6,7 +6,7 @@ return {
   config = function()
     local dap = require "dap"
     local home_dir = os.getenv "HOME"
-    local flutter_version = "3.19.3"
+    local flutter_version = "3.19.5"
     local flutter_path = home_dir .. "dev_env/flutter" .. flutter_version .. "flutter"
 
     dap.adapters.flutter = {

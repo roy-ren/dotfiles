@@ -71,6 +71,7 @@ alias lg="lazygit"
 
 # flutter
 alias f="fvm flutter"
+alias fgt="fvm flutter pub get"
 alias fw="flutter_watch"
 alias fwp="flutter_profile_watch"
 alias fk="flutter_kill_watch"
