@@ -20,7 +20,10 @@ local M = {
       "bash-language-server",
       "shellcheck",
       "shellharden",
-      "shfmt ",
+
+      -- protobuf
+      "buf",
+      "buf-language-server",
     },
   },
 }

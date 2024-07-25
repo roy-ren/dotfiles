@@ -180,6 +180,15 @@ flutter_watch() {
     select-pane -t 0 \;
 }
 
+flutter_okmc_watch() {
+  tmux new -s fw \; \
+    send-keys 'fvm flutter run --flavor develop --dart-define FLAVOR=develop $1 $2 $3 $4 --pid-file=/tmp/tf1.pid' C-m \; \
+    split-window -v \; \
+    send-keys 'npx -y nodemon -e dart -x "cat /tmp/tf1.pid | xargs kill -s USR1"' C-m \; \
+    resize-pane -y 4 -t 1 \; \
+    select-pane -t 0 \;
+}
+
 # flutter run and watch
 flutter_profile_watch() {
   tmux new -s fw \; \
