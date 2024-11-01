@@ -76,6 +76,10 @@ set("n", "<leader>dl", vim.diagnostic.open_float, { desc = "Line Diagnostics" })
 set("n", "<leader>xl", "<cmd>lopen<cr>", { desc = "Location List" })
 set("n", "<leader>xq", "<cmd>copen<cr>", { desc = "Quickfix List" })
 
+set('n', '<leader>do', '<cmd>DiffviewOpen<cr>', { desc = "DiffviewOpen" })
+set('n', '<leader>dc', '<cmd>DiffviewClose<cr>', { desc = "DiffviewClose" })
+set('n', '<leader>dh', '<cmd>DiffviewFileHistory<cr>', { desc = "DiffviewFileHistory" })
+
 -- diagnostic
 local diagnostic_goto = function(next, severity)
   local go = next and vim.diagnostic.goto_next or vim.diagnostic.goto_prev
