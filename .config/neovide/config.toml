@@ -1,0 +1,29 @@
+fork = true
+frame = "none"
+# frame = "buttonless"
+# frame = "transparent"
+idle = false
+maximized = true
+neovim-bin = "/opt/homebrew/bin/nvim" # in reality found dynamically on $PATH if unset
+no-multigrid = false
+srgb = false
+tabs = false
+theme = "dart"
+title-hidden = true
+vsync = true
+wsl = false
+
+[font]
+size = 12
+hinting = "full"
+edging = "antialias"
+
+[[font.normal]]
+# family = "FiraCode Nerd Font Propo"
+family = "DroidSansM Nerd Font Mono"
+style = "W400"
+
+[[font.bold]]
+# family = "FiraCode Nerd Font Propo"
+family = "DroidSansM Nerd Font Mono"
+style = "W600"
