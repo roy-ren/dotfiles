@@ -10,7 +10,7 @@ M.setup = function()
   -- optionally enable 24-bit colour
   vim.opt.termguicolors = true
   vim.o.cursorline = true
-  vim.o.cursorlineopt = 'number,line'
+  vim.o.cursorlineopt = "number,line"
 end
 
 return M
