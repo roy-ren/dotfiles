@@ -3,7 +3,7 @@ local servers = {
   "stylua",
   "yamlls",
   "gitlab_ci_ls",
-  "bash_ls",
+  -- "bash_ls",
   "clangd",
   "cmake",
   "cssls",
